@@ -224,7 +224,7 @@ function showView(name){
 function renderMapView() {
     // This ensures the map iframe is loaded when the view is active.
     const mapIframe = document.querySelector('#map-iframe');
-    const mapUrl = 'https://nareshmakad.github.io/3d-map-simulation';
+    const mapUrl = 'https://www.google.com/maps';
     if (mapIframe) {
          if (mapIframe.src !== mapUrl) {
             mapIframe.src = mapUrl;
